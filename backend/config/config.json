@@ -1,0 +1,43 @@
+{
+    "specialization": {},
+    "middleware": {
+        "static": {
+            "module": {
+                "arguments": [
+                    "path:./.build"
+                ]
+            }
+        },
+        "appsec": {
+            "module": {
+                "arguments": [
+                    {
+                        "xframe": "SAMEORIGIN",
+                        "p3p": false,
+                        "csp": false
+                    }
+                ]
+            }
+        },        
+        "router": {
+            "module": {
+                "arguments": [
+                    {
+                        "directory": "path:./controllers"
+                    }
+                ]
+            }
+        },
+       
+        "json": {
+            "enabled": true,
+            "priority": 60,
+            "module": {
+                "name": "body-parser",
+                "method": "json"
+            }
+        }
+        
+    }
+    
+}
