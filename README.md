@@ -1,14 +1,14 @@
 # airport-cloud-coverage-challenge
 **Premissas:**
 
-- O Frontend deve ser um SPA escrito em React com React hooks.
-- Backend deve ser escrito nodejs utilizando a suite krakenjs.
-- Todos os cálculos devem ser efetuados em um endpoint no backend (API).
-- O frontend deve enviar para a api os dados iniciais, sendo
-    - quantidade mínima de aeroportos: 3,
-    - quantidade mínima de nuvens: 4 nuvens,
-    - tamanho do terreno tendo no mínimo uma área de 10 x 10 linhas.
-- Como resultado ele [o front] deve receber os dados para plotagem de um gráfico ou grid com o resultado do calculo.
+- O Frontend deve ser um SPA escrito em React com React hooks;
+- Backend deve ser escrito nodejs utilizando a suite krakenjs;
+- Todos os cálculos devem ser efetuados em um endpoint no backend (API);
+- O frontend deve enviar para a api os dados iniciais, sendo:
+    - Quantidade mínima de aeroportos: 3;
+    - Quantidade mínima de nuvens: 4 nuvens;
+    - Tamanho do terreno tendo no mínimo uma área de 10 x 10 linhas.
+- Como resultado ele [o front] deve receber os dados para plotagem de um gráfico ou grid com o resultado do calculo;
 - O resultado deve sempre iniciar com o numero de nuvens e aeroportos em posições aleatórias, lembrando que um aeroporto não pode iniciar com uma nuvem sobre ele.
 
 ## O Desafio: 
