@@ -5,7 +5,7 @@
   "author": "Felipe Braido - Cadmus",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "grunt test",
     "build": "grunt build",
     "all": "npm run build && npm run test",
@@ -14,6 +14,7 @@
   "dependencies": {
     "construx": "^1.0.0",
     "construx-copier": "^1.0.0",
+    "cors": "^2.8.5",
     "eslint": "^1.10.3",
     "express": "^4.12.2",
     "kraken-js": "^2.0.0",
@@ -30,6 +31,7 @@
     "grunt-eslint": "^17.3.2",
     "grunt-mocha-cli": "^1.14.0",
     "mocha": "^1.18.0",
+    "nodemon": "^2.0.3",
     "supertest": "^0.9.0"
   },
   "browserPackage": {
