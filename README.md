@@ -1,4 +1,5 @@
 # airport-cloud-coverage-challenge
+![Tela da aplicação](https://i.imgur.com/l6Vm5hU.png)
 **Premissas:**
 
 - O Frontend deve ser um SPA escrito em React com React hooks;
